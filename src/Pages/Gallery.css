@@ -1,0 +1,145 @@
+.profileimg{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("./transparentsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.profileimg1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    letter-spacing: 2px;
+}
+.profileimg2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0px;
+    margin: 30px 0px;
+}
+.profileimg1 h1{
+    font-size: 50px;
+}
+.profileimg3{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-gap: 30px;
+}
+.profileimg4{
+    width: auto;
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+}
+.profileimg4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.profileimg4 .sli{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transform: rotate(90deg);
+    background-color: red ;
+}
+.profileimg4 video{
+    width: 100%;
+height: 100%;
+
+}
+@media screen and (max-width:768px) {
+    .profileimg{
+        width: 100%;
+        height: 230px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("./transparentsplash.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 80px;
+    }
+    .profileimg1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        letter-spacing: 2px;
+    }
+    .profileimg2{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0px;
+        margin: 30px 0px;
+        padding: 20px;
+
+    }
+    .profileimg1 h1{
+        font-size: 30px;
+    }
+    .profileimg3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+        grid-gap: 20px;
+    }
+    .profileimg4{
+        width: auto;
+        height: 200px;
+        display: flex;
+        border-radius: 10px;
+    }
+    .profileimg4 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .profileimg4 .sli{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        transform: rotate(90deg);
+        background-color: red ;
+    }
+    .profileimg4 video{
+        width: 100%;
+    height: 100%;
+    
+    }
+}

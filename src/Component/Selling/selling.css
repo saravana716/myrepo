@@ -1,0 +1,186 @@
+.selling{
+    width: 100%;
+    height:40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.selling1{
+    width: 90%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.selling1 h1{
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+.selling1 h1 span{
+    color: #7000fe  ;
+}
+.sellingslider{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sellingslider1{
+    width: 90%;
+    height: auto;
+}
+
+
+.sellingslider1 .swiper {
+    width: 100%;
+  }
+  
+  .sellingslider1 .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+ .sellingslider1 .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  
+  .sellingslider1 .swiper-slide img{
+    border-radius: 10px;
+  }
+
+  @media screen and (max-width:1200px) {
+    .selling{
+        width: auto;
+        height:18%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .selling1{
+        width: 100%;
+        height:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .selling1 h1{
+        padding-bottom: 15px;
+        font-size: 50px;
+    }
+    .selling1 h1 span{
+        color: #7000fe  ;
+    }
+    .sellingslider{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 20px;
+    }
+    .sellingslider1{
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .sellingslider1 .swiper {
+        width: 100%;
+        
+      }
+      
+      .sellingslider1 .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: auto;
+        height: 300px;
+        border-radius: 10px;
+      }
+      
+     .sellingslider1 .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+      
+      .sellingslider1 .swiper-slide img{
+        border-radius: 10px;
+      }
+  }
+
+
+  @media screen and (max-width:767px) {
+    .selling{
+        width: auto;
+        height:auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    .selling1{
+        width: 100%;
+        height:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .selling1 h1{
+        padding-bottom: 15px;
+        font-size: 25px;
+    }
+    .selling1 h1 span{
+        color: #7000fe  ;
+    }
+    .selling1 p{
+        text-align: justify;
+        line-height: 25px;
+    }
+    .sellingslider{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 20px 20px 20px;
+    }
+    .sellingslider1{
+        width: 100%;
+        height: 300px;
+    }
+    
+    
+    .sellingslider1 .swiper {
+        width: 100%;
+       
+      }
+      
+      .sellingslider1 .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+      }
+      
+     .sellingslider1 .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+      
+      .sellingslider1 .swiper-slide img{
+        border-radius: 10px;
+      }
+    
+  }

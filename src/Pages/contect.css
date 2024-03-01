@@ -1,0 +1,1051 @@
+.contact{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url("../Pages//contact-us-scaled-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contact1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.contact1 h1{
+    font-size: 40px;
+}
+.contactmap{
+    width: 100%;
+    height: 80%;
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactmap1{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+.contactmap1 iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.contacts{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../Pages/contact-us-scaled-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contact112{
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.contact2{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: rgb(29,1,106);
+    background: linear-gradient(90deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    overflow: hidden;
+}
+.contact4{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.contact5{
+    width: 100px;
+    height: 90px;
+    border-radius: 100%;
+    display: flex;
+    background-color: gainsboro;
+}
+.contact5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contact3{
+    padding: 20px 0px;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.contact3::before{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    right: -30px;
+    top: -30px;
+    background: rgb(29,1,106);
+    background: linear-gradient(180deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+}
+.contact3::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    right: -20px;
+    transform: rotate(-45deg);
+    bottom: 15px;
+    background: rgb(29,1,106);
+    background: linear-gradient(180deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+}
+.contact3 h5{
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    right: -20px;
+    transform: rotate(-45deg);
+    bottom: 5px;
+    background: rgb(29,1,106);
+    background: linear-gradient(180deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+
+}
+.contact2::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    background: rgb(29,1,106);
+    background: linear-gradient(180deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+   left: -100%;
+   bottom: -100%;
+   z-index: -1;
+   transition: 3s;
+   border-radius: 100%;
+   animation: scr 5s infinite;
+}
+@keyframes scr {
+    0%{
+        left: -100%;
+        bottom: -100%;
+    }
+    50%{
+        left: 100%;
+        bottom: 100%;
+    }
+    100%{
+        left: -100%;
+        bottom: -100%;
+    }
+}
+
+.contactcon{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;padding-left: 20px;
+}
+.contactcon h1{
+    font-size: 25px;
+    margin: 4px 0px;
+}
+.contactcon h2{
+    font-size: 18px;
+}
+.contactcon h3{
+    margin: 4px 0px;
+
+    font-size: 12px;
+}
+.contact6{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin:10px 0px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid gainsboro;
+}
+.contact6 span{
+    
+    padding: 10px;
+    background: rgb(29,1,106);
+    background: linear-gradient(90deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-right: 20px;
+    box-shadow: 0 8px 32px 0 black;
+
+}
+.contact6 span .contacticon{
+    font-size: 20px;
+    padding: 0px 0px;
+}
+.contact8{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid gainsboro;
+    padding: 20px;
+}
+.contact88{
+    width: 100%;
+}
+.contact8 h3{
+    font-size: 15px;
+    margin: 0px 0px 10px 0px;
+}
+.contact8 p{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-right: 20px;
+
+}
+.checkcon p{
+    padding: 10px;
+    background: rgb(29,1,106);
+    background: linear-gradient(90deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+    color: white;
+    box-shadow: 0 8px 32px 0 black;
+
+}
+.contact8 p .contacticon{
+    font-size: 25px;
+    padding: 0px 0px;
+}
+.checkcon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.checkcon h6{
+    font-size: 15px;
+}
+
+.contact10{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contact10 h1{
+    font-size: 30px;
+    position: relative;
+}
+.contact10 h1::after{
+    position: absolute;
+    content: "";
+    margin: 0 auto;
+    display: block;
+    width:0;
+    border-radius: 10px;
+    height: 3px;
+    transition: 0.7s;
+}
+.contact10:hover ::after{
+    width: 170px;
+}
+.contact10 input{
+    width: 90%;
+    height: 60px;
+    border: none;
+    outline: none;
+    margin: 20px 0px;
+    border-radius: 8px;
+    padding-left: 10px;
+    border: 1px solid gainsboro;
+}
+
+.contact10 textarea{
+    border: 1px solid gainsboro;
+    width: 90%;
+    border-radius: 8px;
+    padding-left: 10px;
+    outline: none;
+    margin: 20px 0px;
+    padding: 10px;
+}
+.contact10 button{
+    width: 160px;
+    border-radius: 8px;
+    padding: 15px 15px;
+    margin: 20px 0px;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 12px;
+    outline: none;
+    transition: 0.7s;
+}
+.contact10 button:hover{
+
+    background: rgb(29,1,106);
+
+    color: white;
+}
+
+
+
+@media screen  and (max-width: 1200px) {
+    .contact{
+        width: auto;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:url("../Pages//contact-us-scaled-1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .contact1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    .contact1 h1{
+        font-size: 40px;
+    }
+    .contactmap{
+        width: auto;
+        height: 40%;
+        margin: 30px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .contactmap1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    
+    }
+    .contactmap1 iframe{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+    
+    .contacts{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("../Pages/contact-us-scaled-1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+    .contact112{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .contact2{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 20px;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: rgb(29,1,106);
+        background: linear-gradient(90deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .contact4{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .contact5{
+        width: 100px;
+        height: 90px;
+        border-radius: 100%;
+        display: flex;
+        background-color: gainsboro;
+    }
+    .contact5 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .contact3{
+        padding: 20px 0px;
+        width: 100%;
+        height: 100%;
+   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .contact3::before{
+        position: absolute;
+        content: "";
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        right: -30px;
+        top: -30px;
+        background: rgb(29,1,106);
+        background: linear-gradient(180deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+    }
+    .contact3::after{
+        position: absolute;
+        content: "";
+        width: 100px;
+        height: 3px;
+        right: -20px;
+        transform: rotate(-45deg);
+        bottom: 15px;
+        background: rgb(29,1,106);
+        background: linear-gradient(180deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+    }
+    .contact3 h5{
+        position: absolute;
+        width: 100px;
+        height: 3px;
+        right: -20px;
+        transform: rotate(-45deg);
+        bottom: 5px;
+        background: rgb(29,1,106);
+        background: linear-gradient(180deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+    
+    }
+    .contact2::before{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        content: "";
+        background: rgb(29,1,106);
+        background: linear-gradient(180deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+       left: -100%;
+       bottom: -100%;
+       z-index: -1;
+       transition: 3s;
+       border-radius: 100%;
+       animation: scr 5s infinite;
+    }
+    @keyframes scr {
+        0%{
+            left: -100%;
+            bottom: -100%;
+        }
+        50%{
+            left: 100%;
+            bottom: 100%;
+        }
+        100%{
+            left: -100%;
+            bottom: -100%;
+        }
+    }
+  
+    .contactcon{
+        width: 90%;
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;padding-left: 20px;
+    }
+    .contactcon h1{
+        font-size: 25px;
+        margin: 4px 0px;
+    }
+    .contactcon h2{
+        font-size: 18px;
+    }
+    .contactcon h3{
+        margin: 4px 0px;
+    
+        font-size: 12px;
+    }
+    .contact6{
+        width: 100%;
+        height: auto;
+        padding: 20px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin:10px 0px;
+        border-radius: 10px;
+        padding: 20px;
+        border: 2px solid gainsboro;
+    }
+    .contact6 span{
+        
+        padding: 10px;
+        background: rgb(29,1,106);
+        background: linear-gradient(90deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+        margin-right: 20px;
+        box-shadow: 0 8px 32px 0 black;
+    
+    }
+    .contact6 span .contacticon{
+        font-size: 20px;
+        padding: 0px 0px;
+    }
+    .contact8{
+        width: 100%;
+        height: auto;
+        padding: 20px 0px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 2px solid gainsboro;
+        padding: 20px;
+    }
+    .contact88{
+        width: 100%;
+    }
+    .contact8 h3{
+        font-size: 15px;
+        margin: 0px 0px 10px 0px;
+    }
+    .contact8 p{
+       
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+        margin-right: 20px;
+    
+    }
+    .checkcon p{
+        padding: 10px;
+        background: rgb(29,1,106);
+        background: linear-gradient(90deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+        color: white;
+        box-shadow: 0 8px 32px 0 black;
+    
+    }
+    .contact8 p .contacticon{
+        font-size: 25px;
+        padding: 0px 0px;
+    }
+    .checkcon{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 15px;
+    }
+    .checkcon h6{
+        font-size: 15px;
+    }
+    
+    .contact10{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact10 h1{
+        font-size: 30px;
+        position: relative;
+    }
+    .contact10 h1::after{
+        position: absolute;
+        content: "";
+        margin: 0 auto;
+        display: block;
+        width:0;
+        border-radius: 10px;
+        height: 3px;
+        transition: 0.7s;
+    }
+    .contact10:hover ::after{
+        width: 170px;
+    }
+    .contact10 input{
+        width: 100%;
+        height: 60px;
+        border: none;
+        outline: none;
+        margin: 20px 0px;
+        border-radius: 8px;
+        padding-left: 10px;
+        border: 1px solid gainsboro;
+    }
+    
+    .contact10 textarea{
+        border: 1px solid gainsboro;
+        width: 100%;
+        border-radius: 8px;
+        padding-left: 10px;
+        outline: none;
+        margin: 20px 0px;
+        padding: 10px;
+    }
+    .contact10 button{
+        width: 160px;
+        border-radius: 8px;
+        padding: 15px 15px;
+        margin: 20px 0px;
+        border: none;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 12px;
+        outline: none;
+        transition: 0.7s;
+    }
+    .contact10 button:hover{
+    
+        background: rgb(29,1,106);
+    
+        color: white;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .contact{
+        width: auto;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:url("../Pages//contact-us-scaled-1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: 81px;
+    }
+    .contact1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    .contact1 h1{
+        font-size: 20px;
+    }
+    .contact1 p{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .contactmap{
+        width: auto;
+        height: 50%;
+        margin: 20px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .contactmap1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    
+    }
+    .contactmap1 iframe{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+    
+    .contacts{
+        width: auto;
+        height: auto;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("../Pages/contact-us-scaled-1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .contact112{
+        width: 100%;
+        height: 80%;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+    .contact2{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-radius: 10px;
+        padding: 20px;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: rgb(29,1,106);
+        background: linear-gradient(90deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .contact4{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .contact5{
+        width: 100px;
+        height: 90px;
+        border-radius: 100%;
+        display: flex;
+        background-color: gainsboro;
+    }
+    .contact5 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .contact3{
+        padding: 20px 0px;
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+     
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .contact3::before{
+        position: absolute;
+        content: "";
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        right: -30px;
+        top: -30px;
+        background: rgb(29,1,106);
+        background: linear-gradient(180deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+    }
+    .contact3::after{
+        position: absolute;
+        content: "";
+        width: 100px;
+        height: 3px;
+        right: -20px;
+        transform: rotate(-45deg);
+        bottom: 15px;
+        background: rgb(29,1,106);
+        background: linear-gradient(180deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+    }
+    .contact3 h5{
+        position: absolute;
+        width: 100px;
+        height: 3px;
+        right: -20px;
+        transform: rotate(-45deg);
+        bottom: 5px;
+        background: rgb(29,1,106);
+        background: linear-gradient(180deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+    
+    }
+    .contact2::before{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        content: "";
+        background: rgb(29,1,106);
+        background: linear-gradient(180deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+       left: -100%;
+       bottom: -100%;
+       z-index: -1;
+       transition: 3s;
+       border-radius: 100%;
+       animation: scr 5s infinite;
+    }
+    @keyframes scr {
+        0%{
+            left: -100%;
+            bottom: -100%;
+        }
+        50%{
+            left: 100%;
+            bottom: 100%;
+        }
+        100%{
+            left: -100%;
+            bottom: -100%;
+        }
+    }
+   
+    .contactcon{
+        width: 90%;
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;padding-left: 20px;
+    }
+    .contactcon h1{
+        font-size: 25px;
+        margin: 4px 0px;
+    }
+    .contactcon h2{
+        font-size: 18px;
+    }
+    .contactcon h3{
+        margin: 4px 0px;
+    
+        font-size: 12px;
+    }
+    .contact6{
+        width: 100%;
+        height: auto;
+        padding: 20px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin:10px 0px;
+        border-radius: 10px;
+        padding: 20px;
+        border: 2px solid gainsboro;
+    }
+    .contact6 span{
+      
+        padding: 10px;
+        background: rgb(29,1,106);
+        background: linear-gradient(90deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+        margin-right: 20px;
+        box-shadow: 0 8px 32px 0 black;
+    
+    }
+    .contact6 span .contacticon{
+        font-size: 20px;
+        padding: 0px 0px;
+    }
+    .contact8{
+        width: 100%;
+        height: auto;
+        padding: 20px 0px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 2px solid gainsboro;
+        padding: 20px;
+    }
+    .contact88{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .contact8 h3{
+        font-size: 15px;
+        margin: 0px 0px 10px 0px;
+    }
+    .contact8 p{
+        
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+        margin-right: 20px;
+    
+    }
+    .checkcon p{
+        padding: 10px;
+        background: rgb(29,1,106);
+        background: linear-gradient(90deg, rgba(29,1,106,1) 0%, rgba(3,8,70,1) 57%);
+        color: white;
+        box-shadow: 0 8px 32px 0 black;
+    
+    }
+    .contact8 p .contacticon{
+        font-size: 25px;
+        padding: 0px 0px;
+    }
+    .checkcon{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 15px;
+    }
+    .checkcon h6{
+        font-size: 15px;
+    }
+    
+    .contact10{
+        width: 100%;
+        height: 100%;
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .contact10 h1{
+        font-size: 30px;
+        position: relative;
+    }
+    .contact10 h1::after{
+        position: absolute;
+        content: "";
+        margin: 0 auto;
+        display: block;
+        width:0;
+        border-radius: 10px;
+        height: 3px;
+        transition: 0.7s;
+    }
+    .contact10:hover ::after{
+        width: 170px;
+    }
+    .contact10 input{
+        width: 100%;
+        height: 60px;
+        border: none;
+        outline: none;
+        margin: 20px 0px;
+        border-radius: 8px;
+        padding-left: 10px;
+        border: 1px solid gainsboro;
+    }
+    
+    .contact10 textarea{
+        border: 1px solid gainsboro;
+        width: 100%;
+        border-radius: 8px;
+        padding-left: 10px;
+        outline: none;
+        margin: 20px 0px;
+        padding: 10px;
+    }
+    .contact10 button{
+        width: 160px;
+        border-radius: 8px;
+        padding: 15px 15px;
+        margin: 20px 0px;
+        border: none;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 12px;
+        outline: none;
+        transition: 0.7s;
+    }
+    .contact10 button:hover{
+    
+        background: rgb(29,1,106);
+    
+        color: white;
+    }
+    
+    
+}

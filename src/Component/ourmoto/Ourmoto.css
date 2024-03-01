@@ -1,0 +1,147 @@
+.moto{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.moto1{
+    width:90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 30px;
+}
+.moto2{
+    width: auto;
+    height: 80px;
+    border: 2px dashed gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.moto2 h1{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.moto2 .icon{
+    font-size: 40px;
+    transition: 0.7s;
+    padding: 10px;
+    border-radius: 100%;
+    color: white;
+    background:rgb(21,7,247);
+    background: linear-gradient(90deg, rgba(21,7,247,1) 0%, rgba(143,4,121,1) 51%);;
+  
+}
+.moto2:hover .icon{
+    background:rgb(21,7,247);
+    background: linear-gradient(90deg, rgba(21,7,247,1) 0%, rgba(143,4,121,1) 51%);;
+    transform: rotate(360deg);
+}
+
+@media screen and (max-width:1200px) {
+    .moto{
+        width: auto;
+        height:auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 20px;
+        margin-top: 20px;
+    }
+    .moto1{
+        width:100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    .moto2{
+        width: auto;
+        height: 80px;
+        border: 2px dashed gainsboro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    .moto2 h1{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .moto2 .icon{
+        font-size: 40px;
+        transition: 0.7s;
+        padding: 10px;
+        border-radius: 100%;
+        color: white;
+        background:rgb(21,7,247);
+        background: linear-gradient(90deg, rgba(21,7,247,1) 0%, rgba(143,4,121,1) 51%);;
+      
+    }
+    .moto2:hover .icon{
+        background:rgb(21,7,247);
+        background: linear-gradient(90deg, rgba(21,7,247,1) 0%, rgba(143,4,121,1) 51%);;
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width:768px){
+    .moto{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+    .moto1{
+        width:100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1,4fr);
+        grid-column-gap: 30px;
+    }
+    .moto2{
+        width: auto;
+        height: 80px;
+        border: 2px dashed gainsboro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    .moto2 h1{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .moto2 .icon{
+        font-size: 40px;
+        transition: 0.7s;
+        padding: 10px;
+        border-radius: 100%;
+        color: white;
+        background:rgb(21,7,247);
+        background: linear-gradient(90deg, rgba(21,7,247,1) 0%, rgba(143,4,121,1) 51%);;
+      
+    }
+    .moto2:hover .icon{
+        background:rgb(21,7,247);
+        background: linear-gradient(90deg, rgba(21,7,247,1) 0%, rgba(143,4,121,1) 51%);;
+        transform: rotate(360deg);
+    }
+    
+}

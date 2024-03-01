@@ -1,0 +1,365 @@
+.explore{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.explore1{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.explore2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.7s;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.explore2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+.explore2 .explorecontent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.651);
+
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+}
+.explore3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.explore3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.explore3:hover img{
+    transform: scale(1.1);
+}
+.explore2:hover img{
+    transform: scale(1.1);
+}
+.explore3 .explorecontent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.651);
+}
+
+.explorecontent h1{
+    font-size: 35px;
+    transition: 0.7s;
+    color:white;
+}
+.explorecontent button{
+    margin: 30px 0px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.explorecontent button .exicon{
+margin-left: 6px;
+margin-bottom: 5px;
+font-size: 16px;
+}
+.explore2:hover .explorecontent h1{
+transform: rotatex(360deg);
+}
+.explore3:hover .explorecontent h1{
+    transform: rotatex(360deg);
+    }
+
+
+    @media screen and (max-width: 1200px){
+        .explore{
+            width: auto;
+            height: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+            padding:0px 20px;
+        }
+        .explore1{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+           
+        }
+        .explore2{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition: 0.7s;
+            margin-right: 0px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .explore2 img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.7s;
+            border-radius: 10px;
+        }
+        .explore2 .explorecontent{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            padding-left: 100px;
+        }
+        .explore3{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-color: rebeccapurple;
+            border-radius: 10px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+        }
+        .explore3 img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: 0.7s;
+        }
+        .explore3:hover img{
+            transform: scale(1.1);
+        }
+        .explore2:hover img{
+            transform: scale(1.1);
+        }
+        .explore3 .explorecontent{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            padding-left: 100px;
+            top: 0;
+            left: 0;
+        }
+        
+        .explorecontent h1{
+            font-size: 35px;
+            transition: 0.7s;
+            color: white;
+        }
+        .explorecontent button{
+            margin: 30px 0px;
+            padding: 15px 50px;
+            border-radius: 50px;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .explorecontent button .exicon{
+        margin-left: 6px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        }
+        .explore2:hover .explorecontent h1{
+        transform: rotatex(360deg);
+        }
+        .explore3:hover .explorecontent h1{
+            transform: rotatex(360deg);
+            }
+    }
+
+    @media screen and (max-width: 767px){
+        .explore{
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+            padding: 20px;
+        }
+        .explore1{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+           
+        }
+        .explore2{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition: 0.7s;
+            margin-right: 0px;
+            overflow: hidden;
+        }
+        .explore2 img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.7s;
+            border-radius: 10px;
+        }
+        .explore2 .explorecontent{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            padding-left: 20px;
+        }
+        .explore3{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+        }
+        .explore3 img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: 0.7s;
+        }
+        .explore3:hover img{
+            transform: scale(1.1);
+        }
+        .explore2:hover img{
+            transform: scale(1.1);
+        }
+        .explore3 .explorecontent{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            padding-left: 20px;
+            top: 0;
+            left: 0;
+        }
+        
+        .explorecontent h1{
+            font-size: 15px;
+            transition: 0.7s;
+            color: white;
+        }
+        .explorecontent button{
+            margin: 30px 0px;
+            padding: 8px 20px;
+            border-radius: 50px;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .explorecontent button .exicon{
+        margin-left: 6px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        }
+        .explore2:hover .explorecontent h1{
+        transform: rotatex(360deg);
+        }
+        .explore3:hover .explorecontent h1{
+            transform: rotatex(360deg);
+            }
+        
+    }

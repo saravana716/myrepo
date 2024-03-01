@@ -1,0 +1,162 @@
+.mycompany{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("./AdobeStock_264640342-scaled.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.mycompany1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(255,255,255,0.2);
+}
+.mycompany2{
+    width: 70%;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.mycompany2 h1{
+    font-size: 25px;
+    margin: 10px 0px;
+    color: black;
+}
+.mycompany2 p{
+    color: white;
+    font-size: 18px;
+}
+.mycompany1 button{
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;
+    background-color:white;
+    color: #7000ef;
+    transition: 0.7s;
+}
+.mycompany1 button:hover{
+    background-color: #7000ef;
+    color: white;
+}
+
+@media screen and (max-width:1200px)
+{
+    .mycompany{
+        width: 100%;
+        height: 40%;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("./AdobeStock_264640342-scaled.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .mycompany1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba(0,0,0,0.5);
+        padding: 20px;
+    }
+    .mycompany2{
+        width: 100%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .mycompany2 h1{
+        font-size: 25px;
+        margin: 10px 0px;
+        color: #7000ef;
+    }
+    .mycompany2 p{
+        color: white;
+    }
+    .mycompany1 button{
+        padding: 20px 50px;
+        border-radius: 10px;
+        border: none;
+        background-color:white;
+        color: #7000ef;
+        transition: 0.7s;
+        margin: 20px 0px ;
+    }
+    .mycompany1 button:hover{
+        background-color: #7000ef;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .mycompany{
+        width: auto;
+        height:auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("./AdobeStock_264640342-scaled.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+    .mycompany1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background-color: rgba(255,255,255,0.2);
+    }
+    .mycompany2{
+        width: 100%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .mycompany2 h1{
+        font-size: 25px;
+        margin: 10px 0px;
+        color: black;
+    }
+    .mycompany2 p{
+        color: white;
+        line-height: 25px;
+    }
+    .mycompany1 button{
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        background-color:white;
+        color: #7000ef;
+        transition: 0.7s;
+    }
+    .mycompany1 button:hover{
+        background-color: #7000ef;
+        color: white;
+    }
+    
+}

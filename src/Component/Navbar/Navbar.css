@@ -1,0 +1,276 @@
+.Navbar{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+  font-family: 'Roboto', sans-serif;
+
+    justify-content: center;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Navbar1{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+.logo img:hover{
+    transform: rotatey(360deg);
+}
+.list a{
+    color: black;
+    font-weight: 400;
+    transition: 0.7s; 
+    position: relative;
+}
+.list a::after{
+    content: "";
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    width: 0;
+    height: 2px;
+    margin-top: 4px;
+    background-color: transparent;
+    transition: 0.7s;
+}
+.list a:hover::after{
+width: 100%;
+background:rgb(21,7,247);
+background: linear-gradient(90deg, rgba(21,7,247,1) 0%, rgba(143,4,121,1) 51%);;
+}
+.burgermenu{
+    display: none;
+}
+.burgermenu1{
+    display: none;
+}
+  
+@media screen and (max-width:1200px) {
+    
+.Navbar{
+    width: auto;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.Navbar1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+.logo img:hover{
+    transform: rotatey(360deg);
+}
+.list h4{
+    color: black;
+    font-weight: 400;
+    transition: 0.7s; 
+    position: relative;
+}
+.list h4::after{
+    content: "";
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    width: 0;
+    height: 2px;
+    margin-top: 4px;
+    background-color: transparent;
+    transition: 0.7s;
+}
+.list h4:hover::after{
+width: 100%;
+background:rgb(21,7,247);
+background: linear-gradient(90deg, rgba(21,7,247,1) 0%, rgba(143,4,121,1) 51%);;
+
+}
+}
+
+
+@media screen and (max-width:767px){
+    .Navbar{
+        width: 100%;
+        height: 80px;
+        background-color: white;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        padding: 20px;
+        z-index: 9999;
+        
+    }
+    .Navbar1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .burgermenu{
+        display: block;
+        z-index: 1;
+        color: black;
+        font-size: 25px;
+    }
+    .burgermenu1{
+        left: 20px;
+        display: block;
+        position: absolute;
+        z-index: -1;
+        color: white;
+        font-size: 20px;
+    }
+    .list{
+        top: 80px;
+        position: absolute;
+        backdrop-filter: blur(5px);
+        width: 50%;
+        height: 900px;
+        background-color:rgba(255, 255, 255, 1);
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        z-index: 9999;
+        left: -100%;
+        padding: 20px;
+        transition: 0.7s;
+    }
+    .menu-open{
+        left: 0;
+    }
+    .displays{
+        z-index: 1;
+        color: black;
+    }
+    .menu-close{
+        color: white;
+        z-index: -1;
+    }
+
+    .logo{
+        width: 90px;
+        height: 90px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 1s;
+        padding: 0;
+        margin: 0;
+    }
+    .logo img:hover{
+        transform: rotatey(360deg);
+    }
+    .list a{
+        width: 100%;
+        font-size: 16px;
+        margin: 10px 0px;
+        z-index: 9999;
+        background-color: navy;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+        color: white;
+       
+    }
+    .list h4{
+        color: black;
+        font-weight: bold;
+        transition: 0.7s; 
+        position: relative;
+        margin: 10px 0px;
+        font-size: 12px;
+        display: none;
+    }
+    .list a::after{
+        content: "";
+        margin: auto;
+        display: none;
+        border-radius: 10px;
+        width: 0;
+        height: 2px;
+        margin-top: 4px;
+        background-color: white;
+        transition: 0.7s;
+    }
+    .list a:hover::after{
+        display: none;
+    width: 100%;
+    background:rgb(21,7,247);
+    background: linear-gradient(90deg, rgba(21,7,247,1) 0%, rgba(143,4,121,1) 51%);;
+    }
+    .list a{
+        width: 100%;
+        font-size: 16px;
+        margin: 20px 0px;
+        z-index: 9999;
+        background-color: white;
+        text-align: start;
+      
+        border-radius: 7px;
+        color: navy;
+        padding: 10px 10px;
+        box-shadow: 0 8px 32px 0 gainsboro;
+       
+    }
+    
+}

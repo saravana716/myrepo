@@ -1,0 +1,179 @@
+.abouttop{
+    width: 100%;
+    height: 40%;
+    background: url("../../Assets/images/IMG-20240207-WA0034.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abouttop1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    background-color:rgb(128, 128, 128,0.7);
+}
+.abouttop1 h1{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.navigation h2{
+font-size: 14px;
+color: white;
+letter-spacing: 2px;
+font-family: 'Roboto', sans-serif;
+font-weight: normal;
+
+}
+.navigation p{
+    color: white;
+margin: 0px 5px;
+    font-size: 14px;
+}
+.navigation a{
+    color: white;
+    font-size: 13px;
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .abouttop{
+        width: auto;
+        height: 30%;
+        background: url("./IMG-20240207-WA0034.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .abouttop1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+        background-color:rgb(128, 128, 128,0.7);
+    }
+    .abouttop1 h1{
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color:black;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .navigation{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 6%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .navigation h2{
+    font-size: 14px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    
+    }
+    .navigation p{
+        color: white;
+    margin: 0px 5px;
+        font-size: 14px;
+    }
+    .navigation a{
+        color: white;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .abouttop{
+        width: auto;
+        height: 20%;
+        background: url("../../Assets/images/IMG-20240207-WA0034.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    margin-top: 81px;
+
+    }
+    .abouttop1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+        background-color:rgb(128, 128, 128,0.7);
+    }
+    .abouttop1 h1{
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color:black;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .navigation{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+    .navigation h2{
+    font-size: 14px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    
+    }
+    .navigation p{
+        color: white;
+    margin: 0px 5px;
+        font-size: 14px;
+    }
+    .navigation a{
+        color: white;
+        font-size: 12px;
+    }
+    
+    
+    
+}

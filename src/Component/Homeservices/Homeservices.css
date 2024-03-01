@@ -1,0 +1,319 @@
+.Homeservices{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Homeservices1{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Homeservices1 h1{
+    font-size: 35px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.Homeservices1 h1 span{
+    color: #7000fe;
+}
+.Homeservices1 p{
+    text-align: center;
+}
+.ourservices{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.services1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 30px;
+}
+.services1 img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.printslider{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.printslider1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.printslider2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    padding: 20px 40px;
+    margin: 10px 0px;
+    background-color: white;
+    box-shadow: 0 8px 12px 0 whitesmoke;
+}
+
+.printslider3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.printslider4{
+    padding: 10px 0px;
+    line-height: 25px;
+}
+.printslider3 h2{
+    font-size: 20px;
+}
+.printslider4 p{
+    color: grey;
+}
+.printslider3 h2{
+    cursor: pointer;
+}
+
+@media screen and (max-width:1200px){
+    .Homeservices{
+        width: auto;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .Homeservices1{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-content:center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Homeservices1 h1{
+        font-size: 35px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+    .Homeservices1 h1 span{
+        color: #7000fe;
+    }
+    .Homeservices1 p{
+        text-align: center;
+    }
+    .ourservices{
+        width: auto;
+        height: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .services{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .services1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        border-radius: 30px;
+    }
+    .services1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    .printslider{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .printslider1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .printslider2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 50px;
+        padding: 20px 40px;
+        margin: 10px 0px;
+        background-color: white;
+        box-shadow: 0 8px 12px 0 whitesmoke;
+    }
+    
+    .printslider3{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .printslider4{
+        padding: 10px 0px;
+        line-height: 25px;
+    }
+    .printslider3 h2{
+        font-size: 20px;
+    }
+    .printslider4 p{
+        color: grey;
+    }
+    .printslider3 h2{
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:767px){
+    .Homeservices{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .Homeservices1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-content:center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Homeservices1 h1{
+        font-size: 20px;line-height: 25px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+    .Homeservices1 h1 span{
+        color: #7000fe;
+    }
+    .Homeservices1 p{
+        line-height: 25px;
+        text-align: justify;
+    }
+    .ourservices{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 20px 0px 20px;
+    }
+    .services{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .services1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        border-radius: 30px;
+    }
+    .services1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    .printslider{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+    }
+    .printslider1{
+        width: 100%;
+        height: 100%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    .printslider2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 30px;
+        padding: 20px 20px;
+        margin: 10px 0px;
+        background-color: white;
+        box-shadow: 0 8px 12px 0 whitesmoke;
+    }
+    
+    .printslider3{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .printslider4{
+        padding: 10px 0px;
+        line-height: 25px;
+    }
+    .printslider3 h2{
+        font-size: 16px;
+    }
+    .printslider4 p{
+        color: grey;
+    }
+    .printslider3 h2{
+        cursor: pointer;
+    }
+}
